@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\static\\app\\content\\home\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|solutionrelative:app\\static\\app\\content\\home\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\templates\\app\\home\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|solutionrelative:app\\templates\\app\\home\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\templates\\app\\account\\login\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|solutionrelative:app\\templates\\app\\account\\login\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\Weather\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|solutionrelative:Weather\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|solutionrelative:app\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\templates\\app\\layout.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F44D90A-3869-4398-BA7E-34031A6D48A8}|Weather.pyproj|solutionrelative:app\\templates\\app\\layout.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\templates\\app\\home\\index.html",
+              "RelativeDocumentMoniker": "app\\templates\\app\\home\\index.html",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\templates\\app\\home\\index.html",
+              "RelativeToolTip": "app\\templates\\app\\home\\index.html",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvwwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-25T20:58:56.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\static\\app\\content\\home\\style.css",
+              "RelativeDocumentMoniker": "app\\static\\app\\content\\home\\style.css",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\static\\app\\content\\home\\style.css",
+              "RelativeToolTip": "app\\static\\app\\content\\home\\style.css",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAywF0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-25T20:58:49.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\templates\\app\\account\\login\\login.html",
+              "RelativeDocumentMoniker": "app\\templates\\app\\account\\login\\login.html",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\templates\\app\\account\\login\\login.html",
+              "RelativeToolTip": "app\\templates\\app\\account\\login\\login.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-25T19:18:06.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\Weather\\urls.py",
+              "RelativeDocumentMoniker": "Weather\\urls.py",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\Weather\\urls.py",
+              "RelativeToolTip": "Weather\\urls.py",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA2wCIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-24T13:06:39.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "layout.html",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\templates\\app\\layout.html",
+              "RelativeDocumentMoniker": "app\\templates\\app\\layout.html",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\templates\\app\\layout.html",
+              "RelativeToolTip": "app\\templates\\app\\layout.html",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAA4AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-24T13:05:16.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "views.py",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\views.py",
+              "RelativeDocumentMoniker": "app\\views.py",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\University\\Projects\\Python\\Weather\\app\\views.py",
+              "RelativeToolTip": "app\\views.py",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAawCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-24T12:47:45.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

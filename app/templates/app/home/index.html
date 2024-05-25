@@ -1,0 +1,28 @@
+{% extends "app/layout.html" %}
+
+  {% block content %}
+
+<br />
+<br />
+
+<form method="post">
+  {% csrf_token %}
+
+  <div class="shabnam">
+    <input id='search-btn' type='checkbox' />
+    <label for='search-btn'></label>
+    <input id='search-bar' type='text' name='city' placeholder='Enter City' />
+    <br /><br /><br /><br />
+  </div>
+  <button class="btn" type="submit">Search</button>
+
+</form>
+
+<div class="comparison-container">
+  {% if weather_data %}
+  <div class="city-container">
+    {% include "app/home/city_weather.html" with weather_data=weather_data%}
+  </div>
+  {% endif %}
+</div>
+  {% endblock %}

@@ -1,0 +1,32 @@
+﻿{% extends "app/layout.html" %}
+
+  {% block content %}
+
+<div class="login-div">
+
+  <form method="post" class="form">
+    {% csrf_token %}
+
+    <h2>Login</h2>
+
+    <div class="form-content">
+
+      <div class="form-box">
+        <label style="text-align:left; direction:ltr">Username</label>
+        <input type="text" name="" placeholder="email.com">
+      </div>
+
+      <div class="form-box">
+        <label style="text-align:left; direction:ltr">Password</label>
+        <input type="password" name="" placeholder="**********">
+      </div>
+
+      <div class="form-box">
+        <input type="submit" name="submit" value="Login">
+      </div>
+    </div>
+
+    <p class="form-forget">Forget your password? <a href="#"> Click this </a> </p>
+  </form>
+</div>
+{% endblock %}

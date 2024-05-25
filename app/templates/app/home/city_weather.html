@@ -1,0 +1,8 @@
+{% if weather_data %}
+
+<h1>City : {{weather_data.city}}</h1>
+<h2>Tempreture : {{weather_data.temperature}} Celcius</h2>
+<h4>Description : {{weather_data.description}}</h4>
+<img src="http://openweathermap.org/img/w/{{weather_data.icon}}.png" alt="{{weather_data.description}}" />
+
+{% endif %}
