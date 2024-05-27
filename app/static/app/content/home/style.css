@@ -4,29 +4,29 @@
 }
 
 #codilo_watermark {
-  text-decoration: none;
-  position: fixed;
-  bottom: 25px;
-  left: 25px;
-  background: linear-gradient(-120deg, #a70707, #be0c0c, #D62121, #C72C2C);
-  background-size: 300% 100%;
-  -moz-transition: all .1s ease-in-out;
-  -o-transition: all .1s ease-in-out;
-  -webkit-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
-  color: white;
-  font-size: 16px;
-  border-radius: 4px;
-  max-width: 500px;
-  padding: 7px 50px;
-  box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.2);
-  z-index: 10000;
-  transition: all 0.5s linear;
-}
-
-  #codilo_watermark:hover {
-    background-position: 100% 0;
+    text-decoration: none;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    background: linear-gradient(-120deg, #a70707, #be0c0c, #D62121, #C72C2C);
+    background-size: 300% 100%;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    max-width: 500px;
+    padding: 7px 50px;
+    box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.2);
+    z-index: 10000;
+    transition: all 0.5s linear;
   }
+
+#codilo_watermark:hover {
+      background-position: 100% 0;
+    }
 
 #btn--yp {
   box-sizing: content-box;
@@ -95,9 +95,9 @@ html {
 }
 
 [id=search-btn] {
-  position: absolute;
-  left: -100vw;
-}
+    position: absolute;
+    left: -100vw;
+  }
 
   [id=search-btn] ~ * {
     --i: var(--pos, 1);

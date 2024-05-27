@@ -58,6 +58,9 @@
     <Folder Include="app\templates\app\" />
     <Folder Include="app\templates\app\account\login\" />
     <Folder Include="app\templates\app\account\signup\" />
+    <Folder Include="app\templates\app\Database\" />
+    <Folder Include="app\templates\app\Database\search\" />
+    <Folder Include="app\templates\app\Database\users\" />
     <Folder Include="app\templates\app\home\" />
     <Folder Include="app\templates\app\contact\" />
     <Folder Include="app\templates\app\about\" />
@@ -70,6 +73,8 @@
     <Content Include="app\static\app\content\login\style.css" />
     <Content Include="app\templates\app\account\signup\index.html" />
     <Content Include="app\templates\app\account\login\login.html" />
+    <Content Include="app\templates\app\Database\users\passwords.txt" />
+    <Content Include="app\templates\app\Database\users\usernames.txt" />
     <Content Include="app\templates\app\home\city_weather.html" />
     <Content Include="app\templates\app\loginpartial.html" />
     <Content Include="requirements.txt" />

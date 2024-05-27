@@ -1,11 +1,8 @@
 .login-div {
   box-sizing: border-box;
-  font-family: Shabnam;
+  font-family: Vazirmatn;
   margin: 0;
   padding: 0;
-}
-
-.login-div {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -47,7 +44,7 @@
           margin-bottom: 5px;
         }
 
-        .login-div .form .form-content .form-box input {
+        .login-div .form .form-content .form-box input, .login-div .form .form-content .form-box button {
           background: #091921;
           border: none;
           border-radius: 10px;
@@ -60,25 +57,25 @@
           width: 100%;
         }
 
-          .login-div .form .form-content .form-box input:focus {
+          .login-div .form .form-content .form-box input:focus, .login-div .form .form-content .form-box button:focus {
             text-shadow: 0 0 10px #22F2AA;
             color: #22F2AA;
           }
 
-          .login-div .form .form-content .form-box input[type="submit"] {
+          .login-div .form .form-content .form-box input[type="submit"], .login-div .form .form-content .form-box button[type="submit"] {
             box-shadow: -3px -3px 6px rgba(255,255,255,0.1), 3px 3px 6px rgba(0,0,0,0.8);
             font-weight: 600;
             margin-top: 20px;
           }
 
-            .login-div .form .form-content .form-box input[type="submit"]:active {
+            .login-div .form .form-content .form-box input[type="submit"]:active, .login-div .form .form-content .form-box button[type="submit"]:active {
               box-shadow: 0 0 20px #22F2AA;
               background: #22F2AA;
               color: #091921;
               margin-top: 20px;
             }
 
-          .login-div .form .form-content .form-box input::placeholder {
+          .login-div .form .form-content .form-box input::placeholder, .login-div .form .form-content .form-box button::placeholder {
             color: #6f6f6f;
             text-shadow: none !important;
             font-size: 18px;

@@ -1,7 +1,9 @@
 from datetime import datetime
+from pyexpat import model
 from django.shortcuts import render
 from django.http import HttpRequest
 import requests
+from app import models
 
 def home(request):
     API_KEY = open("API_KEY.txt", "r").read()
@@ -17,11 +19,7 @@ def home(request):
       
       weather_data = fetch_weather_and_forecast(city, API_KEY, current_weather_url)
       
-      context = {
-          'title':'Home Page',
-          'year':datetime.now().year, 
-          "weather_data" : weather_data,
-        }
+      context['weather_data'] = weather_data
       
       return render_home(request, context)
     else:
@@ -75,23 +73,35 @@ def about(request):
     )
 
 def login(request):
-  if request.method == "POST":
-   pass
-  else:
-   
-    context = {
-            'title':'Login',
-            'year':datetime.now().year,
+  context = {
+          'year':datetime.now().year,
         }
+  
+  if request.method == "POST":
+    username = request.POST['username']
+    password = request.POST['password']
+    
+    user_exist = models.User().exist_user(username)
+
+    if(user_exist):
+      context['title'] = "Home Page"
+      return render_home(request, context)
+    else:
+      context['title'] = "Login"
+      return render_login(request, context)
+    
+      
+  else:
+    context['title'] = "Login"
    
-    render_login(request, context)
+    return render_login(request, context)
 
 def render_login(request, context):
   """Renders the login page."""
   assert isinstance(request, HttpRequest)
   return render(
           request,
-          'app/home/index.html',
+          'app/account/login/login.html',
           context
       )
 
@@ -115,3 +125,4 @@ def render_signup(request, context):
           'app/account/signup/index.html',
           context
       )
+
