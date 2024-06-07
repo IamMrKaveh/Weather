@@ -1,6 +1,6 @@
 from datetime import datetime
 from pyexpat import model
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpRequest
 import requests
 from app import models
@@ -33,6 +33,10 @@ def render_home(request, context):
           'app/home/index.html',
           context
       ) 
+
+def redirect_home():
+  """ReDirect the home page."""
+  return redirect("home")
 
 def fetch_weather_and_forecast(city, api_key, current_weather_url):
   response = requests.get(current_weather_url.format(city, api_key)).json()
@@ -85,10 +89,11 @@ def login(request):
 
     if(user_exist):
       context['title'] = "Home Page"
-      return render_home(request, context)
+      context['this_user'] = username
+      return redirect_home()
     else:
       context['title'] = "Login"
-      return render_login(request, context)
+      return redirect_login()
     
       
   else:
@@ -102,20 +107,37 @@ def render_login(request, context):
   return render(
           request,
           'app/account/login/login.html',
-          context
+          context,
+          
       )
 
+def redirect_login():
+  """ReDirect the login page."""
+  return redirect("login")
+
 def signup(request):
-  if request.method == "POST":
-   pass
-  else:
-   
-    context = {
-            'title':'Sign Up',
-            'year':datetime.now().year,
+  context = {
+          'year':datetime.now().year,
         }
-   
-    render_login(request, context)
+  
+  if request.method == "POST":
+    username = request.POST['username']
+    password = request.POST['password']
+    gmail = request.POST['gmail']
+    
+    iswritten = models.User().write_user(username, password, gmail)
+    
+    if iswritten:  
+      context['title'] = "Login"
+      return redirect_login()
+    else:
+      context['title'] = "Sign Up"
+      context["signed_up"] = "false"
+      return render_signup(request, context)
+    
+  else:
+    context['title'] = "Sign Up"
+    return render_signup(request, context)
 
 def render_signup(request, context):
   """Renders the sign-up page."""
@@ -125,4 +147,8 @@ def render_signup(request, context):
           'app/account/signup/index.html',
           context
       )
+
+def redirect_signup():
+  """ReDirect the signup page."""
+  return redirect("signup")
 

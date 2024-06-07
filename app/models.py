@@ -1,3 +1,4 @@
+from tkinter import TRUE
 from django.db import models
 
 class Search:
@@ -32,6 +33,15 @@ class User:
     
     return user_list
 
+  def write_user(this, username, password, gmail):
+    try:
+        username_file = open("app/Database/users/usernames.txt", "a+").write(f"{username}-")
+        passwords_file = open("app/Database/users/passwords.txt", "a+").write(f"{password}-")
+        gmail_file = open("app/Database/users/gmail.txt", "a+").write(f"{gmail}-")
+        return TRUE
+    except :
+        return False
+
   def exist_user(this, username = ""):
     user_list = User().read_users()
   
@@ -39,4 +49,6 @@ class User:
       return True
     else:
       return False
+    
+    
   
